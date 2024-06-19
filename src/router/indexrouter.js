@@ -1,8 +1,8 @@
-const { Router } = require("express");
-const datacontrollers = require("../controllers/controllers");
+import express from "express";
+import { getData } from "../controllers/controllers";
 
-const router = Router();
+const router = express.Router();
 
-router.get("/soyTA", datacontrollers.getData);
+router.get("/soyTA", getData);
 
-module.exports = router;
+export default { router };

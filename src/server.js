@@ -1,8 +1,9 @@
-const express = require("express");
-const router = require("./router/indexrouter");
-const app = express();
+// import express from "express";
+// import router from "./router/indexrouter";
 
-app.use(express.json());
-app.use(router);
+// const app = express();
 
-module.exports = app;
+// app.use(express.json());
+// app.use(router);
+
+// module.exports = app;
